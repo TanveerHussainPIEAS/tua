@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { CoreViewModule } from 'src/app/core-view/core-view.module';
 
 const routes: Routes = [
   {
@@ -23,6 +24,7 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
+    CoreViewModule,
     RouterModule.forChild(routes),
   ]
 })

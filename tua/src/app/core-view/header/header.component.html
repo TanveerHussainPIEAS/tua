@@ -16,7 +16,7 @@
 
         <div class="nav-item">
 
-            <button mat-button [matMenuTriggerFor]="beforeMenu">Account</button>
+            <button mat-raised-button [matMenuTriggerFor]="beforeMenu"><mat-icon class="account-icon">account_circle</mat-icon></button>
             <mat-menu #beforeMenu="matMenu" xPosition="before">
                 <button mat-menu-item>Log in</button>
                 <button mat-menu-item>Sign Up</button>

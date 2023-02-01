@@ -26,3 +26,9 @@
 .nav-item{
     margin: 10px;
 }
+
+.account-icon{
+    color: rgb(57, 236, 81);
+    /* height: 30px !important; */
+    size: 50px;
+}
