@@ -1,6 +1,28 @@
 
 .footer-item{
-    background-color: aqua;
     align-items: center;
     float:inline-end;
+}
+
+.footer-area{
+    padding-left: 45%;
+}
+
+.main{
+    /* min-height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-content-area{
+    margin-top: 30px;
+}
+
+.mid-content-area{
+    margin-top: 30px;
+}
+
+.buttom-content-area{
+    margin-top: 30px;
 }
