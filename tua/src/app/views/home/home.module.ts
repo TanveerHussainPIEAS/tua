@@ -10,7 +10,6 @@ const routes: Routes = [
     component: HomeComponent,
 
     children: [
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'sign-up', component: SignUpComponent },
     ],
 

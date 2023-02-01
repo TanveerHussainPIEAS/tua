@@ -1,1 +1,27 @@
-<p>header works!</p>
+<div class="main">
+
+    <div class="logo"> Logo</div>
+    <div class="nav-buttons">
+        <div class="nav-item">
+            <button mat-raised-button>Home</button>
+        </div>
+
+        <div class="nav-item">
+            <button mat-raised-button>Contact</button>
+        </div>
+
+        <div class="nav-item">
+            <button mat-raised-button>Buy</button>
+        </div>
+
+        <div class="nav-item">
+
+            <button mat-button [matMenuTriggerFor]="beforeMenu">Account</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+                <button mat-menu-item>Log in</button>
+                <button mat-menu-item>Sign Up</button>
+            </mat-menu>
+        </div>
+
+    </div>
+</div>
